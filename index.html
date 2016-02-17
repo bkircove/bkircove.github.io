@@ -40,6 +40,17 @@
       z-index: 900;
     }
     </style>
+    <link rel="stylesheet" href="https://d345spfe4d65od.cloudfront.net/static/tourmyapp/v1/tourmyapp.css" type="text/css">
+      <script type="text/javascript" src="https://d345spfe4d65od.cloudfront.net/static/tourmyapp/v1/tourmyapp.js"></script>
+
+      <script type="text/javascript">
+      var tour;
+      jQuery(document).ready(function() {
+          tour = new TourMyApp("9377af3ee8aa457370e0bfe2ee87bf20");
+          tour.setOptions({"test_mode": true});
+          tour.start();
+      });
+      </script>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -323,7 +334,12 @@
         </footer>
       </div>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+
+    <a href="#screens">
+      <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+        <i class="material-icons">expand_more</i>
+      </button>
+    </a>
     <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
   </body>
 </html>
