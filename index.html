@@ -40,19 +40,9 @@
       z-index: 900;
     }
     </style>
-    <link rel="stylesheet" href="https://d345spfe4d65od.cloudfront.net/static/tourmyapp/v1/tourmyapp.css" type="text/css">
-      <script type="text/javascript" src="https://d345spfe4d65od.cloudfront.net/static/tourmyapp/v1/tourmyapp.js"></script>
 
-      <script type="text/javascript">
-      var tour;
-      jQuery(document).ready(function() {
-          tour = new TourMyApp("9377af3ee8aa457370e0bfe2ee87bf20");
-          tour.start();
-      });
-      </script>
-      <script>
-      tour.start("56c49db2bc1fbe078400194e");
-  </script>
+
+  <script src="//fast.eager.io/RRxuoA2Dn-.js"></script>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -60,9 +50,11 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
+            <img class="android-logo-image" src="images/android-logo.png" id="android_logo">
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
+
+
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
@@ -343,5 +335,39 @@
       </button>
     </a>
     <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+    <ol id="android_logo">
+
+  <li data-id="android_logo">Tip content...</li>
+
+
+  <li>Tip content...</li>
+
+
+  <li data-class="parent-element-class" data-options="tipLocation:top;tipAnimation:fade" data-button="Second Button">Content...</li>
+
+</ol>
+    <script>
+$(window).load(function() {
+  $("android_logo").joyride({
+
+  'tipLocation': 'bottom',         // 'top' or 'bottom' in relation to parent
+  'nubPosition': 'auto',           // override on a per tooltip bases
+  'scrollSpeed': 300,              // Page scrolling speed in ms
+  'timer': 2000,                   // 0 = off, all other numbers = time(ms)
+  'startTimerOnClick': true,       // true/false to start timer on first click
+  'nextButton': true,              // true/false for next button visibility
+  'tipAnimation': 'pop',           // 'pop' or 'fade' in each tip
+  'pauseAfter': [],                // array of indexes where to pause the tour after
+  'tipAnimationFadeSpeed': 300,    // if 'fade'- speed in ms of transition
+  'cookieMonster': true,           // true/false for whether cookies are used
+  'cookieName': 'JoyRide',         // choose your own cookie name
+  'cookieDomain': false,           // set to false or yoursite.com
+  'tipContainer': body,            // Where the tip be attached if not inline
+  'postRideCallback': $noop,       // a method to call once the tour closes
+  'postStepCallback': $noop        // A method to call after each step
+});
+  });
+});
+</script>
   </body>
 </html>
