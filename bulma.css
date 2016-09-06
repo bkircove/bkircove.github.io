@@ -12,17 +12,26 @@
 }
 
 .bk2 {
-  	background: url(../images/BKJOVEM.png) no-repeat;
+    width: 98px;
+	  height: 98px;
+  	background: #EC2C2C;
+    
 
 }
 
 .bk3 {
-      	background: url(../images/BKFANFA.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    background: #EC2C2C;
+
 
 }
 
 .bk4 {
-        background: url(../images/BKCOXA.png) no-repeat;
+    width: 32px;
+	  height: 32px;
+    background: #EC2C2C;
+
 
 }
 
