@@ -1,3 +1,31 @@
+.circular {
+	width: 128px;
+	height: 128px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/BK.png) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+.bk2 {
+  	background: url(../images/BKJOVEM.png) no-repeat;
+
+}
+
+.bk3 {
+      	background: url(../images/BKFANFA.png) no-repeat;
+
+}
+
+.bk2 {
+        background: url(../images/BKCOXA.png) no-repeat;
+
+}
+
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;
   padding: 0;
