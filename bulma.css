@@ -6020,7 +6020,7 @@ a.panel-block:hover {
 
 .hero.is-primary {
   background-color: #00897B;
-  /*background-image: url(file:///Users/bkircove/Documents/git/kircove.me.io/images/bkbg.png);*/
+  background-image: url("https://github.com/bkircove/bkircove.github.io/blob/master/images/bkbg.png?raw=true");
   color: white;
 }
 
